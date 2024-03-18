@@ -302,8 +302,11 @@ elif nav == "Modelling":
         st.write('''
         **Conclusion**
         
-        So it can be concluded that the model with better performance is the Random Forest model, characterized by the Random Forest model which has the highest accuracy value in the classification report, 
+        1. So it can be concluded that the model with better performance is the Random Forest model, characterized by the Random Forest model which has the highest accuracy value in the classification report, 
         which is 84% and the Random Forest model has the largest AUC-ROC score compared to other models, which is equal to 90%.
+
+        2. Among the 13 different features studied, it can be identified that 9 main features studied play an important role in differentiating between positive and negative diagnoses. 
+        These distinguishing features include the type of chest pain (cp), the maximum heart rate achieved during exercise (thalach), the number of major blood vessels (ca), the degree of ST depression caused by exercise in comparison with the resting state (oldpeak), the slope of the segment ST peak exercise (slope), exercise-induced angina (exang), thallium test results (thal), gender (sex) and age (age).
         ''')
 
 elif nav == 'Prediction':
